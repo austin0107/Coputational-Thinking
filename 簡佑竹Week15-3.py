@@ -27,10 +27,10 @@ for i in range(36):
 a.penup() # 畫36個小圓圈
 a.color("white")
 for i in range(36): # 重複36次,找到對應的六角形
-    a.forward(370)
+    a.forward(500)
     a.pendown()
     a.circle(5)
     a.penup()
-    a.backward(370)
+    a.backward(500)
     a.right(10) # 隱藏海龜
 a.hideturtle()
